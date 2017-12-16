@@ -1,0 +1,86 @@
+header{
+    height: 80px;
+    padding:2px 10px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear:after{
+    content: '';
+    display: block;
+    clear:both;
+}
+.container{
+    width:1100px;
+    margin: 0 auto;
+}
+.table_head{
+    background: lightblue;
+    padding: 10px;
+    height: 30px;
+}
+button {
+    background: aqua;
+    padding:5px 10px;
+    border:none;
+    border-radius: 3px;
+    color: white;
+}
+input{
+    padding:5px 10px;
+    margin-right: 20px;
+    border:0;
+}
+#t1{
+    border-collapse: collapse;
+}
+#t1 tr{
+    border:1px solid #ddd;
+    padding:10px;
+}
+#t1 thead tr{
+    background: aliceblue;
+}
+#t1 thead tr td:first-child{
+    padding-left:30px;
+}
+#t1 tbody td{
+    padding-left:5px;
+}
+#t1 tbody td.col-1{
+    width:10%;
+}
+#t1 tbody td.col-2{
+    width:40%;
+}
+#t1 tbody td.col-3{
+    width:20%;
+}
+#t1 tbody td.col-4{
+    width:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
